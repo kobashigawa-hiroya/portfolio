@@ -160,9 +160,19 @@
             <div id="future" class="info">
               <h3 class="top_info">どの様なエンジニアになりたいか</h3>
               <p>
-                前職の保育園を辞めてまでIT企業を志した理由は→<br>
-                <p>現在保育士をやっていて、業務改善や待機児童問題など様々な課題が見えてきました。</p>
-                <p>その問題解決は保育士だけでは難しく、IT技術を駆使して（コミニケーションツール、サービス提供（開発など））解決して行けるのではないかと思い、転職を決めた。</p>
+                前職の保育園を辞めてまでIT企業を志した理由<br>
+                <p>私は現在保育士として多くの子どもたちと関わり、また、保護者対応、同僚との業務を通じて、課題が見えてきました。</p>
+
+                  <p>具体的には、<span class="red-bold">業務改善です。</span></p>
+                    
+                  <p>保育業務以外にも連絡帳・書類作成、登降園の記録から精算までの事務作業、出欠席を管理等保育業務意外にも多数有り、人手不足の現場では、1人に割り振られる仕事量が多く、勤務時間も長くなり自宅に仕事を持ち帰ったりするケースがあります。</p>
+                  
+                  <p>そのような実体験を元に letter bookというアプリを学習の中で作成しました。</p>
+                  
+                  <p>1クリックで登園、降園のデータを送信出来たりと今まで手作業で数十分かかって行なっていた業務を数秒で完了出来たことに感動を覚えこの時、これほどまでに日々の業務を改善できるITに大きな可能性と魅力を感じました。</p>
+                  
+                  <p>この経験から様々なサービスにITを組み合わせて、もっと多くの方に改善と感動を届けたい、そして、</p>
+                  </p>
                 <p>子どもたちが好きだからこそその問題を解決し、保育の現場を活性化する。子どもも大人もwinwinな環境を作っていきたい。</p>
                 <span class="red-bold">「世の中の悩み、多くの人の困ったを解消していきたい。」</span>からです。
               </p>
@@ -227,12 +237,18 @@
                 <li>・コードを書く前にマインドマップを作成。現場の声を聴きながら、少しずつ改善を加え設計書通りに制作</li>
                 <li>・実際にアプリを作る事で基礎文法の知識の定着が出来たと実感</li>
                 <li>・AWSにアプリをデプロイしています。</li>
-                <li>現在保育士として勤務している中で、保育士の日々の業務の簡素化、もっと保護者と保育士間でもう少し円滑にコンタクト、コミュニケーションが取れないかと考え、業務の1つであるお便り帳アプリを制作しました。実際に現場の職員の話、助言をいただいたりし使っていたただくユーザ目線を考え試行錯誤しなが作成しました。
-                  具体的には、スマホで操作できるようレスポンシブ デザイン。忙しい朝の時間にボタン１クリックで登園の時間を送信(time_zoneを使用）保育園からのお知らせ、配布物も"iframe"を使いwordで資料、手紙等を共有し配布漏れ、印刷物のコスト削減。"googleCalendar"を埋め込む事でアプリ内で年間行事（日時を）知る事ができる。返信を書くのが忙しい保護者ように（イイね機能を応用し、見ました！スタンプを実装）
-                  <li>⭐️ 主にRuby on rails ,Javascriptを主に使用しました。</li>
+                <li>現在保育士として勤務している中で、保育士の日々の業務の簡素化、</li>
+                <li>保護者と保育士間で円滑にコミュニケーションが取れないかと考え、業務の1つであるお便り帳アプリを制作しました。</li>
+                  実際に現場の職員の話、助言をいただき使っていたただくユーザ目線を考え試行錯誤しなが作成。
+                  <li>◎具体的には、スマホで操作できるようレスポンシブデザイン</li>
+                  <li>◎忙しい朝の時間にボタン１クリックで登園の時間を送信(time_zoneを使用）</li>
+                  <li>◎保育園からのお知らせ、配布物も"iframe"を使いwordで資料、手紙等を共有し配布漏れ、印刷物のコスト削減。</li>
+                  <li>◎"googleCalendar"を埋め込む事でアプリ内で年間行事（日時を）知る事ができる。</li>
+                  <li>◎返信を書くのが忙しい保護者ように（イイね機能を応用し、見ました！スタンプを実装）</li>
+                  <li>⭐️ 主にRuby on Rails ,JavaScriptを主に使用しました。</li>
                   まだまだ作成段階ではありますが、見ていただけると幸いです。
                   よろしくお願いします。
-                <li>#保護者（アプリユーザー）保育士、保育園側（管理者画面を設置し、管理者画面から投稿、データの閲覧が出来ます。）</li>
+                <li>⭐️保護者（アプリユーザー）保育士、保育園側（管理者画面を設置し、管理者画面から投稿、データの閲覧が出来ます。）</li>
               </ul>
             </div>
           </section>
@@ -252,12 +268,11 @@
               <div class="info">
                 <h4 class="top_info">使用したGem</h4>
                 <ul>
-                  <li>・gem "bootsnap", ">= 1.4.2"</li>
-                  <li>・gem "devise-i18n"</li>
-                  <li>・gem "jquery-rails"</li>
-                  <li>・gem "activeadmin"</li>
-                  <li>・gem "mini_magick""</li>
-                  <li>・gem "pry-byebug"</li>
+                  <li>・ "Devise-i18n"</li>
+                  <li>・ "jquery-rails"</li>
+                  <li>・ "Activeadmin"</li>
+                  <li>・ "Mini_magick"</li>
+                  <li>・ "pry-byebug"</li>
                 </ul>
               </div>
             </section>
@@ -268,7 +283,7 @@
     </section>
 
     <section class="text-center padding_top" id="section3">
-      <div class="front_text">Ruby on Rails Javascript<h2 class="back_text">Ruby on Rails</h2></div>
+      <div class="front_text">Ruby on Rails JavaScript<h2 class="back_text">Ruby on Rails</h2></div>
       <h3 class="content_title">ルーレットアプリ</h3>
       <div class="container">
 
@@ -311,9 +326,9 @@
               <ul>
                 <li>・初めてRailsでCRUD処理を実装して制作したアプリ</li>
                 <li>・Chart.jsの円グラフを使い、ルーレットの基盤を再現</li>
-                <li>・今回はbootstrapではなく、学習も兼ねてbuluma（cssフレームワーク）を使用</li>
+                <li>・今回はBootstrapではなく、学習も兼ねてBulma（CSSフレームワーク）を使用</li>
                 <li>・よりゲーム感覚的を味わえるようローディング画面を実装した</li>
-                <li>・フロント部分の学習も兼ねてvue.js,vuetifyを現在取り入れ実装中（現在製作中）</li>
+                <li>・フロント部分の学習も兼ねてVue.jsを現在取り入れ実装中（現在製作中）</li>
               </ul>
             </div>
           </section>
@@ -324,9 +339,9 @@
             <div class="info">
               <h4 class="top_info">使用したGem</h4>
               <ul>
-                <li>・gem "bulma-rails", "~> 0.8.0"</li>
-                <li>・gem "activeadmin"</li>
-                <li>・gem "jquery-rails"</li>
+                <li>・ "bulma-rails"</li>
+                <li>・ "Activeadmin"</li>
+                <li>・ "jquery-rails"</li>
                   </li>
               </ul>
             </div>
@@ -363,7 +378,7 @@
             <div class="info">
               <h4 class="top_info">韓国留学時代サークル風景</h4> 
               <a href="https://www.youtube.com/watch?v=r23TevGdAdo" target="_blank"><img src="image/yonsei.jpg" alt="スロットゲーム"></a>
-            　<a href="https://www.youtube.com/watch?v=InUUkgB3Lt0&t=481s" target="_blank" >チームリーダ結婚式</a>
+            <a href="https://www.youtube.com/watch?v=InUUkgB3Lt0&t=481s" target="_blank" >チームリーダ結婚式</a>
           <section class="flex">
             <div class="icon">
               <i class="far fa-lightbulb"></i>
@@ -374,8 +389,10 @@
                 <li>20代の頃韓国に留学しダンスを通してイベントを企画したり言葉も通じない状況でも積極的に</li>
                 <li>企画し、構成を考えたりと現地の方々と切磋琢磨していった。</li>
                 <li>初めての海外でパスポートを郵送してしまうトラブル等もありましたが。留学生活、ダンスを通して</li>
-                <span class="red-bold">→持続力、物怖じしない性格、企画力、実行力、コミュニケーション能力が身につきまし。</span>
               </ul>
+              
+              <span class="red-bold">→持続力、物怖じしない性格、企画力、実行力、コミュニケーション能力が身につきました。</span>
+
             </div>
           </section>
         </div>
@@ -405,7 +422,7 @@
                 <li>・その後食事会も開き、メンバーの交流を深める</li>
                 <li>・第2回もくもく会を主催予定</li>
               </ul>
-              <p class="red-bold pt_30">→物怖じしない性格、企画力、実行力、コミュニケーション能力があります</p>
+              <p class="red-bold pt_30">→物怖じしない性格、企画力、実行力、コミュニケーション能力があります。</p>
             </div>
           </section>
         </div>
@@ -443,7 +460,7 @@
             </div>
             <div class="info">
 
-              <p class="red-bold pt_30">→継続力、コミュニケーション能力があります</p>
+              <p class="red-bold pt_30">→継続力、コミュニケーション能力があります。</p>
             </div>
           </section>
         </div>
